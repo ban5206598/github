@@ -1,0 +1,198 @@
+!SESSION 2016-10-16 19:37:05.812 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 19 2016-10-16 19:39:29.721
+!MESSAGE Updating the index from remote failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:240)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.ZipInputStream.read(ZipInputStream.java:193)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at com.google.common.io.ByteStreams.copy(ByteStreams.java:169)
+	at com.google.common.io.ByteSink.writeFrom(ByteSink.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ui.utils.Zips.unzip(Zips.java:83)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-10-16 19:53:46.188 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-10-16 19:54:07.599
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2016-10-17 00:16:50.584 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 00:18:01.932
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk-3655.so
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+)
+!SESSION 2016-10-17 00:23:14.847 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 00:24:21.731
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+!SESSION 2016-10-17 00:53:57.285 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 00:54:16.541
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+!SESSION 2016-10-17 00:59:55.499 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 01:00:09.090
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+!SESSION 2016-10-17 01:09:09.389 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 01:09:25.403
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+!SESSION 2016-10-17 01:11:57.342 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 01:12:13.292
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+!SESSION 2016-10-17 01:16:30.203 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 01:16:44.429
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+!SESSION 2016-10-17 01:19:12.501 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 01:19:26.489
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+!SESSION 2016-10-17 01:21:49.476 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 01:22:04.784
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+!SESSION 2016-10-17 01:23:26.596 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 01:23:41.920
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+!SESSION 2016-10-17 01:32:15.697 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-10-17 01:32:28.076
+!MESSAGE Internal browser is not available: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner-addons'] (java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	/home/ban/eclipse/eclipse/configuration/org.eclipse.osgi/bundles/559/1/.cp/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	no swt-mozilla-gtk in java.library.path
+	/tmp/swtlib-32/libswt-mozilla-gtk-3655.so: libxpcom.so: 无法打开共享对象文件: 没有那个文件或目录
+	Can't load library: /tmp/swtlib-32/libswt-mozilla-gtk.so
+)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
